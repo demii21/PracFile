@@ -1,0 +1,2073 @@
+1: HTML (Assignment 1)
+•	Change the background color of the page to cyan.
+•	Print the numbers 1 - 10, each number being a different sizes using heading tag. 
+•	Create some links to various search engines (google, yahoo, altavista, lycos, etc). 
+•	Display five different images. Skip two lines between each image. Each image should have a title. 
+•	Display an image that has a border of size 2, a width of 200, and a height of 200. 
+•	Display an image that when clicked will link to a search engine of your choice (should be opened in a new window). 
+ 
+CODE-
+<html>
+    <head>
+        <title>Assignment 1</title> 
+    </head>
+    <body style="background-color:cyan    ;">
+        <h1>1</h1><h1>6</h1> 
+        <h2>2</h2><h2>7</h2>
+        <h3>3</h3><h3>8</h3>
+        <h4>4</h4><h4>9</h4>
+        <h5>5</h5><h5>10</h5>
+        <h6>6</h6>        
+        <a href="https://www.google.com"><img src="/icons8-google-480.png" height="100px" width="100px" style="border:2px solid;"></a><br><br>
+        <a href="https://www.yahoo.com"><img src="icons8-yahoo-480.png" height="100px" width="100px" ></a><br><br>
+        <a href="https://www.bing.com"><img src="icons8-bing-480.png" height="100px" width="100px"></a><br><br>
+        <a href="https://www.google.com"><img src="/icons8-google-480.png" height="100px" width="100px"></a><br><br>
+        <a href="https://www.bing.com"><img src="icons8-bing-480.png" height="200px" width="200px"></a>
+    </body>
+</html>
+
+ 
+ 
+
+
+
+
+2: HTML (Assignment 2)
+1.	Create the given table.
+2.	Add images in the corresponding table cell.
+3.	Create Airtel image and Uninor image as hyper image and link it with their corresponding url.
+4.	In the cell “Table with Images” give background color as “Cyan”
+5.	All the content should be center aligned.
+6.	Border should be 2px, Cellspacing and Cellpadding as 6px.
+7.	Specify height and width of the table.
+
+
+Code:-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment2</title>
+</head>
+
+<body>
+    <h1 align="center">Table With Mobile Connections</h1>
+    <table border="1" align="center">
+        <tr>
+            <td><img src="vodafone.jpg" width="150" height="100"></td>
+            <td><img src="uninor.jpg" width="150" height="100"></td>
+            <td><img src="Tata Indicom.jpg" height="100" width="150"></td>
+            <td><a href="https://www.airtel.in/"><img src="airtel.jpg" width="100" height="100"></a></td>
+        </tr>
+        <tr>
+            <td><img src="tataDocomo.png" width="150" height="100"></td>
+            <td colspan="2"><h2 align="center">Table With Image</h2></td>
+            <td><img src="aircel.jpg" width="150" height="100"></td>
+        </tr>
+        <tr>
+            <td><img src="uninor.jpg" width="150" height="100"></td>
+            <td><img src="mts.png" width="150" height="100"></td>
+            <td><img src="hutch.jpg" height="100" width="150"></td>
+            <td><img src="tataDocomo.png" height="100" width="150"></td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+OUTPUT:
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+3: HTML (Assignment 3)
+
+Make use of UL, OL and DL tag to create the following document
+ 
+
+Code :-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment3</title>
+</head>
+<body>
+    <h1>Learning Web Development </h1>
+    <ol type="I">
+        <li>Background Skills</li>
+        <ol type="A">
+            <li>Unix Commands</li>
+            <li>Vim</li>
+        </ol>
+        <li>HTML</li>
+            <ol type="A">
+                <li>Minimal Page</li>
+                <li>Heading</li>
+                <li>Tags</li>
+                <li>Lists</li>
+                <ol type="I">
+                    <li>Unordered</li>
+                    <li>Ordered</li>
+                    <li>Description</li>
+                    <li>Nested</li>
+                </ol>
+                <li>Links</li>
+                <ol type="i">
+                    <li>Absolute</li>
+                    <li>Relative</li>
+                </ol>
+                <li>Images</li>
+            </ol>
+        <li>CSS</li>
+            <ol type="A">
+                <li>Anatomy</li>
+                <li>Basic Selectors</li>
+                <ol type="i">
+                    <li>Elements</li>
+                    <li>Class</li>
+                    <li>ID</li>
+                    <li>Group</li>
+                </ol>
+                <li>The DOM</li>
+                <li>Advanced Selector</li>
+                <li>Box Model</li>
+            </ol>        
+    </ol>
+    
+</body>
+</html>
+
+ 
+4: HTML ( Assignment 4)
+
+
+1.	Create the following webpage using image map. Link the part of plants with their corresponding page showing list of plants that are edible in that category.
+2.	Create 4 pages to be linked with this image map, make use of list, table to show picture of plants etc.
+ 
+
+CODE:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment4</title>
+</head>
+<body>
+    <img src="/find.png" alt="flower" usemap="#find">
+    <map name="find">
+        <area shape="poly" coords="140,65,119,38,132,19,155,11,176,24,213,11,232,31,224,49,258,41,279,56,272
+        ,82,239,97,267,117,254,136,210,112,190,148,168,134,176,94,129,105" href="/Assignment4-2.html" >
+        <area shape="poly" coords="211,119,220,130,230,136,242,179,233,228,211,229,222,183,219,153," href="/Assignment4-3.html" >
+        <area shape="rect" coords="271,135,381,207" href="/Assignment4-4.html" >
+        <area shape="rect" coords="92,231,319,278" href="/Assignment4-5.html">
+    </map>
+    
+</body>
+</html>
+
+
+
+
+
+Template for other pages :-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment4</title>
+</head>
+<body>
+    <h1>PETALS</h1>
+    <table border="1px">
+        <tr>
+            <th>Name</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>Dandelions</td>
+            <td><img src=" " height="200px" width="200px"></td>
+        </tr>
+        <tr>
+            <td>Hibiscus</td>
+            <td><img src="” height="150px" height="200px"></td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OUTPUT:-
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+5:  HTML (Assignment 5)
+Make use of Table, Image to create the front webpage of website.
+ 
+
+OUTPUT 
+
+
+ 
+
+CODE
+<!DOCTYPEhtml>
+<htmllang="en">
+
+<head>
+<metacharset="UTF-8">
+<metahttp-equiv="X-UA-Compatible"content="IE=edge">
+<metaname="viewport"content="width=device-width, initial-scale=1.0">
+<title>Assignment 5</title>
+
+<style>
+@importurl('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+box-sizing: border-box;
+        }
+
+body {
+font-family: 'Roboto', sans-serif;
+background: rgb(246, 61, 104);
+background: linear-gradient(90deg, rgba(246, 61, 104, 1) 0%, rgba(224, 62, 122, 1) 10%, rgba(182, 62, 145, 1) 24%,
+rgba(151, 65, 170, 1) 37%, rgba(130, 69, 200, 1) 100%);
+        }
+
+.navtd {
+text-align: center;
+background-color: #FFC600;
+font-weight: 700;
+text-transform: uppercase;
+        }
+
+#table1 {
+margin-bottom: 15px;
+        }
+
+.img-content {
+background-image: url('https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+padding-right: 10px;
+        }
+
+.img-contenth2,
+.img-contentspan {
+display: block;
+width: fit-content;
+background-color: #FFC600;
+padding: 5px;
+margin: 0%;
+        }
+
+.price {
+background-color: #FFC600;
+padding-bottom: 0%;
+padding: 20px;
+        }
+
+.price.pri {
+font-size: 2rem;
+font-weight: 300;
+margin: 5px;
+text-align: center;
+
+        }
+
+.priceh3 {
+margin: 0%;
+font-size: 0.8rem;
+text-align: center;
+
+        }
+
+#table3td {
+background-color: #fff;
+text-align: center;
+font-weight: 500;
+font-size: 0.9rem;
+        }
+
+#table3.icon {
+font-size: 1.8rem;
+display: block;
+margin-bottom: 6px;
+        }
+
+#table3.lorem {
+display: block;
+font-size: 0.7rem;
+margin-top: 10px;
+font-weight: 400;
+        }
+
+#table4td {
+background-color: #fff;
+        }
+
+#table4td {
+display: flex;
+align-items: center;
+        }
+
+#table4divimg {
+width: 400px;
+height: 200px;
+object-fit: cover;
+object-position: center;
+        }
+
+#table4divh2 {
+margin: 0%;
+        }
+
+#table4divp {
+margin-bottom: 10px;
+font-weight: 700;
+        }
+
+#table4button {
+outline: none;
+border: none;
+background-color: #FFC600;
+margin-top: 8px;
+padding: 10px35px10px10px;
+font-weight: 500;
+        }
+</style>
+
+</head>
+
+<body>
+<tableid="table1"cellpadding="5"cellspacing="5px"width=100%>
+<trclass="nav">
+<tdwidth="20%">Tacos</td>
+<tdwidth="20%">Beers</td>
+<tdwidth="20%">Wines</td>
+<tdwidth="20%">Desserts</td>
+<tdwidth="20%">Reservations</td>
+</tr>
+</table>
+<tableid="table2"cellpadding="40px"cellspacing="10px"width=100%>
+<tr>
+<tdclass="img-content"rowspan="2">
+<div>
+<h2>Terry's Taco Joint</h2><br>
+<span>Pretty Good Tacos!</span>
+</div>
+</td>
+<tdclass="price">
+<h4class="pri">$1.99</h4>
+<h3>Tacos</h3>
+</td>
+
+</tr>
+<tr>
+<tdclass="price">
+<h4class="pri">$3.99</h4>
+<h3>Kombucha</h3>
+</td>
+</tr>
+
+</table>
+<tableid="table3"cellpadding="10px"cellspacing="10px"width=100%>
+<tr>
+<td>
+<spanclass="icon">&#x1F32E;</span>
+<span>Tacos</span>
+<spanclass="lorem"> Lorem, ipsum dolor sit ametconsecteturadipisicingelit. </span>
+</td>
+<td><spanclass="icon">&#x1F37A;</span>
+<span>Beers</span>
+<spanclass="lorem"> Lorem, ipsum dolor sit ametconsecteturadipisicingelit. </span>
+</td>
+<td><spanclass="icon">&#x1F377;</span>
+<span>Wine</span>
+<spanclass="lorem"> Lorem, ipsum dolor sit ametconsecteturadipisicingelit. </span>
+</td>
+<td><spanclass="icon">&#x1F3B5;</span>
+<span>Music</span>
+<spanclass="lorem"> Lorem, ipsum dolor sit ametconsecteturadipisicingelit. </span>
+</td>
+</tr>
+</table>
+<tableid="table4"cellpadding="30px"cellspacing="10px"width=100%>
+<tr>
+<td>
+<div>
+<imgsrc="https://www.pngmart.com/files/17/Healthy-Fish-Taco-PNG-Transparent-Image.png"
+alt="tacoImg">
+</div>
+<div>
+<h2>Featured Taco</h2>
+<p>Slim Profile, easy to hold and loaded with cheese</p>
+<p>This is the one you have been waiting for</p>
+<button>Learn More</button>
+</div>
+</td>
+</tr>
+
+</table>
+</body>
+</html>
+
+
+6: HTML (Assignment 6)
+•	Create the following Frameset Document, with Six webpages with the given content and arrange it in the respective frames. 
+•	Centre Panel Frame contains names of fruits and vegetables as hyperlinks.
+•	On Click on each fruits their nutritional value and image should be seen in left panel frame
+•	On Click on each vegetable their nutritional value and image should be seen in right panel frame.
+
+   
+
+CODE
+
+MAIN
+<!DOCTYPEhtml>
+<htmllang="en">
+
+<head>
+<metacharset="UTF-8">
+<metahttp-equiv="X-UA-Compatible"content="IE=edge">
+<metaname="viewport"content="width=device-width, initial-scale=1.0">
+<title>Assignment 6</title>
+
+<!-- frameset attribute starts here -->
+<framesetrows="10%, 30%, 50%, 10%">
+<framescrolling="no"name="top"src="./navbar.html" />
+<framescrolling="no"name="head"src="./head.html" />
+<framesetcols="40%, 20%, 40%">
+<framescrolling="no"name="left"src="./fruitsPage.html" />
+<framescrolling="no"name="center"src="./centralPanel.html" />
+<framescrolling="no"name="right"src="./vegetablePage.html" />
+</frameset>
+<framescrolling="no"name="bottom"src="./footer.html" />
+</frameset>
+<!-- frameset attribute ends here -->
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+NAVBAR
+
+<!DOCTYPEhtml>
+<htmllang="en">
+
+<head>
+<metacharset="UTF-8">
+<metahttp-equiv="X-UA-Compatible"content="IE=edge">
+<metaname="viewport"content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+* {
+padding: 0%;
+box-sizing: border-box;
+margin: 0%;
+        }
+
+body {
+background-color:greenyellow;
+        }
+header{
+display: flex;
+justify-content: end;
+align-items: center;
+        }
+headerh1{
+font-size: 3rem;
+margin-right: 70px;
+        }
+</style>
+</head>
+
+<body>
+<header>
+<div>
+<imgsrc="https://images.unsplash.com/photo-1519996529931-28324d5a630e?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987"width="300px"height="250px"alt="fruits">
+</div>
+<div>
+<h1>Food is Health</h1>
+</div>
+</header>
+</body>
+
+</html>
+
+FOOTER
+<!DOCTYPEhtml>
+<htmllang="en">
+<head>
+<metacharset="UTF-8">
+<metahttp-equiv="X-UA-Compatible"content="IE=edge">
+<metaname="viewport"content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<style>
+* {
+padding: 0%;
+box-sizing: border-box;
+margin: 0%;
+        }
+
+footer{
+background-color: black;
+padding: 5px0;
+        }
+
+footerdiv{
+width: fit-content;
+margin: 20pxauto;
+
+        }
+
+footerh3{
+font-size: 1.5rem;
+padding: 2px;
+background-color: rgb(210, 210, 210);
+        }
+</style>
+</head>
+<body>
+<footer>
+<div>
+<h3>Address: Shop 111, B-2, Janakpuri, NewDelhi-110058 </h3>
+</div>
+</footer>
+</body>
+</html>
+
+TEMPLATE
+<!DOCTYPEhtml>
+<htmllang="en">
+
+<head>
+<metacharset="UTF-8">
+<metahttp-equiv="X-UA-Compatible"content="IE=edge">
+<metaname="viewport"content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<style>
+* {
+padding: 0%;
+box-sizing: border-box;
+margin: 0%;
+        }
+
+.fruits-section {
+margin: 30px;
+        }
+
+.fruits-sectionh3{
+margin:20px010px0;
+padding: 10px;
+background-color:rgb(210, 210, 210);
+font-size: 1.6rem;
+text-align: center;
+        }
+
+.fruits-sectionh2{
+margin-bottom: 10px;
+        }
+
+.fruitsul{
+display: block;
+height: 100px;
+overflow-wrap: break-word;
+        }
+
+.fruitsli{
+display: inline-block;
+padding-left: 30px;
+list-style-position: inside;
+padding: 3px0;
+        }
+
+.fruitsimg{
+display: block;
+margin: auto;
+width: 150px;
+height: 150px;
+object-fit: cover;
+object-position: center;
+        }
+</style>
+</head>
+
+<body>
+<divclass="fruits-section">
+<divclass="fruits">
+<h3>Apple</h3>
+<imgsrc="https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g="alt="fruit">
+<ul>
+<h2> Nutritional value </h2>
+<li><b>Calories:</b> 52, </li>
+<li><b>Water</b> 86%, </li>
+<li><b>Protein:</b> 0.3 grams, </li>
+<li><b>Carbs:</b>  13.8 grams, </li>
+<li><b>Sugar:</b>  10.4 grams, </li>
+<li><b>Fiber:</b>  2.4 grams, </li>
+<li><b>Fat:</b> 0.2 grams</li>
+</ul>
+
+</div>
+</div>
+</body>
+
+
+
+7: HTML (Assignment 7) (Form Tag)
+Create the following Questionnaire using Form Elements.
+
+ 
+
+CODE
+
+HTML
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+<metacharset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<metaname="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment 7</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action = "#">
+<p>
+            1. Please select one of the following options regarding your current appointment. 
+<select name="">
+<option value  = "Tenured">Tenured</option>
+<option value  = "Associate">Associate</option>
+<option value  = "Assistant">Assistant</option>
+<option value  = "Adjunct">Adjunct</option>
+<option value  = "Visiting">Visiting</option>
+</select>
+</p>
+<p>
+            2. Which Department are your affiliated with: 
+<select name="">
+<option value="Astronomy">Astronomy</option>
+<option value="Biology">Biology</option>
+<option value="Chemistry">Chemistry</option>
+<option value="Computer Science">Computer Science</option>
+<option value="Environmental Science">Environment Science</option>
+<option value="Physics">Physics</option>
+</select>
+</p>
+<p>
+            3. Please check any of the following e-resources that you have used in the past month: 
+<div class="">
+<input type="checkbox" name="google" value = "google">
+<label name = "google">Google</label> 
+</div>
+<div class="">
+<input type="checkbox" name="ScienceCitationIndex" value = "Science Citation Index">
+<label name = "ScienceCitationIndex">Science Citation Index</label>
+</div>
+<div class="">
+<input type="checkbox" name="GeoRef" value = "Georef">
+<label name = "GeoRef">GeoRef</label>
+</div>
+<div class="">
+<input type="checkbox" name="INSPEC" value = "INSPEC">
+<label name = "INSPEC">INSPEC</label>
+</div>
+<div class="">
+<input type="checkbox" name="Biosis" value = "Biosis">
+<label name = "Biosis"> Biosis</label>
+</div>
+<div class="">
+<input type="checkbox" name="PubMed" value = "PubMed">
+<label name = "PubMed">PubMed</label>
+</div>
+<div class="">
+<inpu ttype="checkbox" name="ScienceDirect" value = "Science Direct">
+<label name = "ScienceDirect">Science Direct</label>
+</div>
+<div class="">
+<input type="checkbox" name="Safari" value = "Safari">
+<label name = "Safari">Safari</label>
+</div>
+</p>
+<p>
+            4. How often do you use Science Citation Index? At least:
+<table>
+<tr>
+<th>Never</th>
+<th>Once a semester</th>
+<th>Once a month</th>
+<th>Once a week</th>
+<th>Once a day</th>
+</tr>
+<tr>
+<td><input type="radio" name="Never" value="Never"></td>
+<td><input type="radio" name="OnceASemester" value="Once a semester"></td>
+<td><input type="radio" name="OnceAMonth" value="Once a month"></td>
+<td><input type="radio" name="Once a week" value="Once a week"></td>
+<td><input type="radio" name="Once a day" value="Once a day"></td>
+</tr>
+</table>
+</p>
+<p>
+            4. How often do you use Google? At least:
+<table>
+<tr>
+<th>Never</th>
+<th>Once a semester</th>
+<th>Once a month</th>
+<th>Once a week</th>
+<th>Once a day</th>
+</tr>
+<tr>
+<td><input type="radio" name="Never" value="Never"></td>
+<td><input type="radio" name="OnceASemester" value="Once a semester"></td>
+<td><input type="radio" name="OnceAMonth" value="Once a month"></td>
+<td><input type="radio" name="Once a week" value="Once a week"></td>
+<td><input type="radio" name="Once a day" value="Once a day"></td>
+</tr>
+</table>
+</p>
+<p>
+            4. How satisfied are you with the e-journal selection in Science Direct? At least:
+<table>
+<tr>
+<th>Very Satisfied</th>
+<th>Somewhat Satisfied</th>
+<th>Selection is "So-so"</th>
+<th>Does not meet my research needs </th>
+<th>I do not use Science Direct</th>
+</tr>
+<tr>
+<td><input type="radio" name="VerySatisfied" value="Very Satisfied"></td>
+<td><input type="radio" name="SomewhatSatisfied" value="Somewhat Satisfied"></td>
+<td><input type="radio" name="SelectionisSo-so" value="Selection is 'So-so'"></td>
+<td><input type="radio" name="Doesnotmeetmyresearchneeds " value="Does not meet my research needs "></td>
+<td><input type="radio" name="IdonotuseScienceDirect" value="I do not use Science Direct"></td>
+</tr>
+</table>
+</p>
+<p>
+            7. Do you have any recommendations for new e-journals or e-books?
+<div>
+<textarea rows="5"cols = "80"></textarea>
+</div>
+</p>
+<h2>Optional Questions</h2>
+<p>
+            If you are open to having one of the library staff contact you as a follow-up to this questionnaire, please supply the following Information:
+</p>
+<p>
+            Your Name :
+<input type="text">
+</p>
+<p>
+            Your email address :
+<input type="email" name="">
+</p>
+<p>
+            We thank you for taking the time to complete this survey. Please now click the <strong>Send</strong> button to submit your responses 
+</p>
+<input type="submit" name="submit" value="Send">
+<input type="reset" name="clear" value="Clear Form">
+<center>
+<h2><strong>Good Luck!</strong></h2>
+</center>
+</form>
+</body>
+</html>
+
+CSS
+
+th, td {
+width: 150px;
+text-align: left;
+}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8: CSS (Assignment 1)	
+a.	Create a web page add  five images and apply these style rules. 
+To create circled image: border-radius: 50%; (try different percentages)
+To create responsive image: max-width: 100%;   height: auto;
+To create Centred image: display: block;   margin-left: auto;   margin-right: auto;  width: 50%;
+To create Transparent Image :   opacity: 0.5;
+To create Filtered Image: filter: grayscale(100%);
+
+
+b.	Write four definitions of the topic CSS, HTML, Javascript, XML and apply three different properties to each topic.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Assignment 8</title>
+<style type="text/css"></style>
+</head>
+<body>
+<img src="./images/image1.jpeg" style="border-radius: 40%; width: 400px; height: 400px"  />
+<br />
+<img src="./images/image2.jpeg"style="max-width: 100%" height="800px" />
+<br />
+<img src="./images/image3.jpeg" style="display: block; margin: auto; width: 500px; height: 500px" />
+<br />
+<img  src="./images/image4.jpeg" style="opacity: 0.5; width: 200px; height: 200px"   />
+<br />
+<img src="./images/image5.jpeg" style="filter: grayscale(100%); width: 200px; height: 200px" />
+<div style=" background-color: #1778f2; color: white;  width: fit-content; font-size: 2rem; ">
+<h1>HTML</h1>
+<p>
+        The HyperText Markup Language or HTML is the standard markup language
+        for documents designed to be displayed in a web browser. It can be
+        assisted by technologies such as Cascading Style Sheets (CSS) and
+        scripting languages such as JavaScript. Web browsers receive HTML
+        documents from a web server or from local storage and render the
+        documents into multimedia web pages. HTML describes the structure of a
+        web page semantically and originally included cues for the appearance of  the document.</p>
+</div>
+<div style=" background-color: #1778f2; color: white; width: fit-content; font-size: 1.5rem; ">
+<h1>CSS</h1>
+<p>
+        Cascading Style Sheets (CSS) is a style sheet language used for
+        describing the presentation of a document written in a markup language
+        such as HTML. CSS is a cornerstone technology of the World Wide Web,
+        alongside HTML and JavaScript.CSS is designed to enable the separation
+        of presentation and content, including layout, colors, and fonts. This
+        separation can improve content accessibility; provide more flexibility
+        and control in the specification of presentation characteristics; enable
+        multiple web pages to share formatting by specifying the relevant CSS in
+        a separate .css file, which reduces complexity and repetition in the
+        structural content; and enable the .css file to be cached to improve the
+        page load speed between the pages that share the file and its
+        formatting.
+</p>
+</div>
+<div style=" background-color: #1778f2; color: white; width: fit-content; font-size: 1.7rem; ">
+<h1>Javascript</h1>
+<p>
+        often abbreviated JS, is a programming language that is one of the core
+        technologies of the World Wide Web, alongside HTML and CSS.[11] Over 97%
+        of websites use JavaScript on the client side for web page behavior,[12]
+        often incorporating third-party libraries.[13] All major web browsers
+        have a dedicated JavaScript engine to execute the code on users'
+        devices. JavaScript is a high-level, often just-in-time compiled
+        language that conforms to the ECMAScript standard.[14] It has dynamic
+        typing, prototype-based object-orientation, and first-class functions.
+        It is multi-paradigm, supporting event-driven, functional, and
+        imperative programming styles. It has application programming interfaces
+        (APIs) for working with text, dates, regular expressions, standard data
+        structures, and the Document Object Model (DOM).
+</p>
+</div>
+<div style=" background-color: #1778f2; color: white;  width: fit-content;  font-size: 3rem; ">
+<h1>XML</h1>
+<p>
+        Extensible Markup Language (XML) is a markup language and file format
+        for storing, transmitting, and reconstructing arbitrary data. It defines
+        a set of rules for encoding documents in a format that is both
+        human-readable and machine-readable. The World Wide Web Consortium's XML
+        1.0 Specification[2] of 1998[3] and several other related
+        specifications[4]—all of them free open standards—define XML.[5
+</p>
+</div>
+</body>
+</html>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9 : CSS (Assignment 2)
+
+Create the given Zebra-striped Tables using pseudo class
+
+ 
+
+
+CODE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment 9</title>
+<style>
+tr:nth-child(even){
+background-color:greenyellow;
+        }
+th{
+background-color:gray;
+        }
+</style>
+</head>
+<body>
+<table cellspacing="6px" cellpadding = "6px">
+<tr>
+<th>id</th>
+<th>Name</th>
+<th>Major</th>
+</tr>
+<tr>
+<td>1002</td>
+<td>Gopal Murthy</td>
+<td>Physics</td>
+</tr>
+<tr>
+<td>1003</td>
+<td>Ram Gopal</td>
+<td>Maths</td>
+</tr>
+<tr>
+<td>1004</td>
+<td>Shayam Sharma</td>
+<td>Chemistry</td>
+</tr>
+<tr>
+<td>1005</td>
+<td>Raju</td>
+<td>Accounts</td>
+</tr>
+<tr>
+<td>1006</td>
+<td>Abhay</td>
+<td>Computer Science</td>
+</tr>
+</table>
+</body>
+</html>
+
+OUTPUT:-
+
+ 
+
+
+
+10: CSS (Assignment 3)
+Q1. Create the following page using External CSS myrules.css and link it with html page
+
+ 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment-10</title>
+    
+</head>
+    <frameset cols="20%,80%" noresize="noresize" bordercolor="">
+        <frame  src="assignment10_menu.html" name="menu">
+        <frame src="assignment10_body.html" name="main">
+    </frameset>
+    <noframes>
+        this browser does not support frameset
+    </noframes>
+
+</html>
+
+
+Assignment10_menu.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assignment10.css">
+</head>
+<body>
+    <ul type="none">
+        <li class="first">  <a href="#"> HOME PAGE</a></li>
+        <li><a href="#">Musings</a></li>
+        <li><a href="#">My Town</a></li>
+        <li><a href="#">Links</a></li>
+    </ul>
+</body>
+</html>
+
+assignment10_main.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assignment10.css">
+</head>
+<body>
+    <h1>My First Styled Page</h1>
+    <p>Welcome to my styled page!</p>
+    <p>It lacks images but atleast it has styles. And it has links,
+        even if <br> they dont go anywhere
+    </p>
+    <hr>
+    <p>
+        Made 03-May-2022
+    </p>
+</body>
+</html>
+
+CSS
+*{
+    background-color: rgb(156, 156, 96);
+    color: rgb(110, 18, 110);
+}
+
+li {background-color: white;
+   border-style: solid;
+   line-height: 30px;
+   text-align: left;
+}
+li a{
+    background-color: white;
+}
+
+OUTPUT:-
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q2. Create a web page that displays college information about courses, admission process, no of students in each course, About College.
+Make use of Table, List tag and images.
+Create External Style sheet and link by using @import statement. 
+
+<html>
+    <head>
+    <title>MAHARAJA SURAJMAL Institute</title>
+    <style>@import url(xyz.css);</style>
+    </head>
+    <body>
+        <h2 class="vid">MAHARAJA SURAJMAL INSTITUTE</h2>
+        <img src="/msi.jpg">
+        <br>
+        <font>
+            List of Courses offered
+            <ul>
+                <li>BCA</li>
+                <li>BBA</li>
+                <li>BCOM</li>
+                <li>B.Ed</li>
+            </ul>
+        </font>
+        Results of BCA students
+        <table width="100%" cellspacing="2" cellpadding="2" border="5">
+            <tr>
+                <th>S.NAME</th>
+                <th>MARKS</th>
+                <th>RESULT</th>
+            </tr>
+            <tr>
+                <td align="center">X</td>
+                <td align="center">100</td>
+                <td align="center">pass</td>
+            </tr>
+            <tr>
+                <td align="center">y</td>
+                <td align="center">99</td>
+                <td align="center">pass</td>
+            </tr>
+            <tr>
+                <td align="center">z</td>
+                <td align="center">98</td>
+                <td align="center">pass</td>
+            </tr>
+        </table>
+    </body> 
+</html>
+
+
+CSS
+
+.vid{font-family:verdana;font-style:italic;color:red;text-align:center}
+ 
+.ani{font-family:tahoma;font-style:italic;font-size:20;text-align:center;}
+ 
+font{font-family:georgia;color:blue;font-size:20}
+ 
+ul{list-style-type:circle}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11: CSS (Assignment 4)
+(External CSS, Pseudo Class, Pseudo Elements)
+1)	Try the use of these combinators in CSS  (A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.)
+There are four different combinators in CSS:
+•	descendant selector (space)
+•	child selector (>)
+•	adjacent sibling selector (+)
+•	general sibling selector (~)
+Create a web page to show the use of each of these combinators selectors.
+
+HTML
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Assignment 11</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<div>
+<h1>Descendant combinator (space selector)</h1>
+<ul>
+<li>
+<div>Item 1</div>
+<ul>
+<li>Subitem A</li>
+<li>Subitem B</li>
+</ul>
+</li>
+<li>
+<div>Item 2</div>
+<ul>
+<li>Subitem A</li>
+<li>Subitem B</li>
+</ul>
+</li>
+</ul>
+</div>
+<div>
+<h1>Child combinator(>)</h1>
+<div class="child">
+<span>Span #1, in the div.
+<span>Span #2, in the span that's in the div.</span>
+</span>
+</div>
+<span>Span #3, not in the div at all.</span>
+</div>
+<divclass="adjacent">
+<h1>Adjacent sibling combinator</h1>
+<ul>
+<li>One</li>
+<li>Two!</li>
+<li>Three</li>
+</ul>
+</div>
+<div>
+<h1>general sibling selector (~)</h1>
+<span>This is not red.</span>
+<p>Here is a paragraph.</p>
+<code>Here is some code.</code>
+<span>And here is a red span!</span>
+<span>And this is a red span!</span>
+<code>More code...</code>
+<div>How are you?</div>
+<p>Whatever it may be, keep smiling.</p>
+<span>And yet again this is a red span!</span>
+</div>
+</body>
+</html>
+
+CSS
+li {
+list-style-type: disc;
+}
+
+lili {
+list-style-type: circle;
+}
+
+span {
+background-color: aqua;
+}
+
+.child>span {
+background-color: yellow;
+}
+
+.adjacentli:first-of-type+li {
+color: red;
+}
+
+p~span {
+color: red;
+}
+
+
+ 
+
+2)	Study about Pseudo Class from given website linkhttps://www.w3schools.com/css/css_pseudo_classes.asp (A pseudo-class is used to define a special state of an element.)
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+  <a href="www.duckduckgo.com">Duckduckgo</a><br>
+  <p>This will show the use of pseudo class in Paragraph</p><br>
+  <div class="div1">
+      <h4>this will show the use of pseudo class in div</h4>
+  </div><br>
+  <ol>
+    <li>apple</li>
+    <li>banana</li>
+    <li>pineapple</li>
+  </ol>
+  </body>
+</html>
+
+CSS
+
+a:hover{
+  color: pink;
+}
+p:hover{
+  color:red;
+  padding: 5%;
+}
+div:hover{
+  font-style: italic;
+  background-color: purple;
+
+}
+ol:active{
+  background-color: yellow;
+}
+body{
+  background-color: silver;}
+ 
+   
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+1.	Study about Pseudo Elements from https://www.w3schools.com/css/css_pseudo_elements.asp (A CSS pseudo-element is used to style specified parts of an element.)
+Create a web page and show the use of Pseudo Elements on 
+i.	Paragraph Tag
+ii.	
+Selector	Example	Example description
+::after	p::after	Insert something after the content of each <p> element
+::before	p::before	Insert something before the content of each <p> element
+::first-letter	p::first-letter	Selects the first letter of each <p> element
+::first-line	p::first-line	Selects the first line of each <p> element
+::marker	::marker	Selects the markers of list items
+::selection	p::selection	Selects the portion of an element that is selected by a user
+
+
+CODE:-
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <p class="firstPara">Lorem ipsum </p>
+    <p class="secondPara">tempor </p>
+    <p class="thirdPara">ultrices tincidunt </p>
+    <p class="fourthPara">consequat </p>
+    <p class="fifthPara">pretium <mark>this will get highlighted</mark></p>
+    <p class="sixthPara">malesuada </p>
+  </body>
+</html>
+
+CSS:-
+
+.firstPara::after{
+    content: "  --usage of ::after ";
+}
+.secondPara::before{
+    content: "  --usage of ::before ";
+}
+.thirdPara::first-letter{
+    font-size: 100px;
+}
+.fourthPara::first-line{
+    background-color: pink;
+}
+.fifthPara::marker {
+  color: blue;
+  font-size: 1.2em;
+}
+.sixthPara{
+  color: silver;
+}
+
+ \
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12: Javascript (Assignment-1)
+(Programming Basics)
+1. Declare the following variables in javascript:
+var x=10,y=”hello”,z=”1.2”,a=true,b;
+Using typeof operator check each variables type.
+
+CODE:-
+
+var x=10;
+var x=10;
+y="hello";
+z="1.2";
+a=true; 
+b;
+
+console.log(typeof(x));
+console.log(typeof(y));
+console.log(typeof(z));
+console.log(typeof(a));
+console.log(typeof(b));
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Write a javascript function to perform mathematical operation, where first argument is the operator and rest arguments are operands.
+Test Data : +, 2,3
+Expected output: 5
+Test Data: *,2,3,4
+Expected Output: 24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.	Write a JavaScript function that returns a passed string with letters in alphabetical order. 
+Example string : 'webmaster' 
+Expected Output : 'abeemrstw'
+
+
+CODE:-
+var text ="hello world";
+console.log(text.split(' ').sort().join(' '));
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.	Write a JavaScript function to get the last element of an array. Passing a parameter 'n' will return the last 'n' elements of the array. 
+Test Data : 
+console.log(last([7, 9, 0, -2])); 
+console.log(last([7, 9, 0, -2],3)); 
+console.log(last([7, 9, 0, -2],6));
+Expected Output : 
+-2 
+[9, 0, -2] 
+[7, 9, 0, -2]
+
+
+
+CODE :-
+var last =  function(array, n) {
+  if (array == null) 
+    return void 0;
+  if (n == null) 
+     return array[array.length - 1];
+  return array.slice(Math.max(array.length - n, 0));  
+  };
+
+console.log(last([7, 9, 0, -2]));
+console.log(last([7, 9, 0, -2],3));
+console.log(last([7, 9, 0, -2],6));
+
+
+
+ 
+
+
+
+
+
+5. Write a JavaScript program which accept a number as input and insert dashes (-) between each two even numbers.
+ For example if you accept 025468 the output should be 0-254-6-8. 
+
+
+const num=025468;
+const str = num.toString();
+const result = [str[0]];
+  
+for(let x=1; x<str.length; x++)
+  {
+    if((str[x-1]%2 === 0)&&(str[x]%2 === 0))
+     {
+      result.push('-', str[x]);
+     }
+    else
+     {
+      result.push(str[x]);
+     }
+  }
+console.log(result.join(''));
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13: Javascript(Assignment 2) (DOM)
+Write a JavaScript program to highlight the bold words of the following paragraph with yellow background, on mouse over event. https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php - EDITOR
+Sample link and text :
+[On mouse over here bold words of the following paragraph will be highlighted]
+We have just started this section for the users (beginner to intermediate) who want to work with various JavaScript problems and write scripts online to test their JavaScript skill.
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Get And Style All Tags</title>
+  </head>
+  <body>
+  <p>[<a href="#" onMouseOver="highlight()" onMouseOut="return_normal()">On mouse over here bold words of the following paragraph will be highlighted</a>]</p>
+<p><strong>We</strong> have just started <strong>this</strong> section for the users (<strong>beginner</strong> to intermediate) who <strong>want</strong> to work with <strong>various</strong> JavaScript <strong>problems</strong> and write scripts online to <strong>test</strong> their JavaScript <strong>skill</strong>.</p>
+  </body>
+<script >
+var bold_Items;
+window.onload = getBold_items();
+function getBold_items()
+{
+  bold_Items = document.getElementsByTagName('strong');
+}
+function highlight()
+{
+   for (var i=0; i<bold_Items.length; i++)
+   {
+    bold_Items[i].style.color = "red";
+    }
+}
+function return_normal()
+{
+  for (var i=0; i<bold_Items.length; i++)
+  {
+       bold_Items[i].style.color = "black";
+  }
+}
+</script>
+</html>
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+14: Dynamic HTML 
+Program 1: Write a Javascript code to pick each content of Unordered List and display it inside textarea.
+<html>
+<head><title>JavaScript Siblings</title></head>
+<body>
+<form >
+<ul id="menu">
+<li>Home</li>
+<li>Products</li>
+<li class="current">Customer Support</li>
+<li>Careers</li>
+<li>Investors</li>
+<li>News</li>
+<li>About Us</li>
+</ul>
+Client Name :<input type=text name=”txt1”>
+Remarks: <textarea id=”t1”></textarea>
+</body>
+</html>
+
+
+
+CODE :
+<html>
+<head>
+<title>JavaScript Siblings</title>
+</head>
+
+<body>
+<ul id="menu">
+<li>Home</li>
+<li>Products</li>
+<li class="current">Customer Support</li>
+<li>Careers</li>
+<li>Investors</li>
+<li>News</li>
+<li>About Us</li>
+</ul>
+ Client Name :<input type="text"name="”txt1”" /> Remarks:
+<textarea id="t1"></textarea>
+
+<input type="button"value="Click it"onclick="get_list_items();" />
+<input type="button"value="clear"onclick="clearta();" />
+</body>
+
+<script>
+function get_list_items() {
+var lis=document.getElementById("menu").getElementsByTagName("li");
+var ta =document.getElementById("t1");
+
+// Loop through the NodeList object.
+for (leti=0; i<=lis.length-1; i++) {
+ta.innerHTML+=lis[i].innerHTML+",";
+      }
+    }
+
+functionclearta() {
+var ta =document.getElementById("t1");
+ta.value="";
+    }
+</script>
+</html>
+
+
+OUTPUT:-
+
+ 
+
+
+Program 2: Write a Javascript code to perform the following tasks
+a)	Add DIV tag inside Paragraph id=”p1” element. Add the following content inside DIV tag “World is full of Positive people who brings <b> HOPE </b> in life”.
+Give font-family: Arial font-size:16 px, color: blue
+b)	Add inline style to H1 tag “Color red, font-size: 32 px”
+c)	Attach an external CSS file to this page on click of button.
+
+<html>
+<body>
+<h1>Humanity</h1>
+<p>People are God?s gift to <b>Mankind</b>,
+ everyone has the same body and soul. </p>
+<p id="p1">SINCE MOTHER Earth was created, 
+ she has seen herself being divided both naturally
+ (into sub continents) and then selfishly (into countries). 
+</p>
+<input type=button value="Add new node" onClick="addNewNode()">
+<input type=button value="Link dynamic CSS" onClick="addCss()">
+</body>
+</html>
+
+
+Code:-
+
+<html>
+<head>
+<title>assignment14</title>
+</head>
+<body>
+<h1 id="hm">Humanity</h1>
+<p>
+      People are God?s gift to <b>Mankind</b>, everyone has the same body and
+      soul.
+</p>
+<p id="p1">
+      SINCE MOTHER Earth was created, she has seen herself being divided both
+      naturally (into sub continents) and then selfishly (into countries).
+</p>
+<input type="button"value="Add new node"onClick="addNewNode()" />
+<input type="button"value="Link dynamic CSS"onClick="addCss()" />
+<input type="button"value="Link External CSS"onClick="extCss()" />
+</body>
+
+<script>
+function addNewNode() {
+const para=document.getElementById("p1");
+const addhope=document.createElement("div");
+
+addhope.innerHTML="World is full of Positive people who brings <b> HOPE </b> in life";
+addhope.style.fontFamily="Arial";
+addhope.style.fontSize="16px";
+addhope.style.color="blue";
+para.appendChild(addhope);
+    }
+
+function addCss() {
+const h1s=document.getElementById("hm");
+
+h1s.style.color="red";
+h1s.style.fontSize="32px";
+    }
+
+function extCss() {
+const ext=document.createElement("link");
+ext.setAttribute("rel", "stylesheet");
+ext.setAttribute("href", "./style.css");
+document.head.appendChild(ext);
+    }
+</script>
+</html>
+
+CSS
+
+body {
+background-color: aqua;
+}
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+15: CSS Filters and Transitions
+Create a webpage having images and paragraphs on the topic environment. 
+	a) apply five different filters on it.
+b)	apply transition effect on any one image
+
+
+
+CODE:-
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<h2>Natural environment</h2>
+<p>The natural environment or natural world encompasses all living and non-living things occurring naturally, meaning in this case not artificial. The term is most often applied to the Earth or some parts of Earth. This environment encompasses the interaction of all living species, climate, weather and natural resources that affect human survival and economic activity.[1] The concept of the natural environment can be distinguished as components:
+
+Complete ecological units that function as natural systems without massive civilized human intervention, including all vegetation, microorganisms, soil, rocks, atmosphere, and natural phenomena that occur within their boundaries and their nature.
+Universal natural resources and physical phenomena that lack clear-cut boundaries, such as air, water, and climate, as well as energy, radiation, electric charge, and magnetism, not originating from civilized human actions.
+In contrast to the natural environment is the built environment. Built environments are where humans have fundamentally transformed landscapes such as urban settings and agricultural land conversion, the natural environment is greatly changed into a simplified human environment. Even acts which seem less extreme, such as building a mud hut or a photovoltaic system in the desert, the modified environment becomes an artificial one. Though many animals build things to provide a better environment for themselves, they are not human, hence beaver dams, and the works of mound-building termites, are thought of as natural.
+[7:20 PM]
+People cannot find absolutely natural environments on Earth, and naturalness usually varies in a continuum, from 100% natural in one extreme to 0% natural in the other. The massive environmental changes of humanity in the Anthropocene have fundamentally effected all natural environments: including from climate change, biodiversity loss and pollution from plastic and other chemicals in the air and water. More precisely, we can consider the different aspects or components of an environment, and see that their degree of naturalness is not uniform.[2] If, for instance, in an agricultural field, the mineralogic composition and the structure of its soil are similar to those of an undisturbed forest soil, but the structure is quite different.</p>
+
+<img class="pic1" src="pic1.jpg" alt="">
+<img class="pic2" src="pic2.jpg" alt="">
+<img class="pic3" src="pic3.jpg" alt="">
+<img class="pic4" src="pic4.jpg" alt="">
+<img class="pic5" src="pic5.jpg" alt="">
+
+  </body>
+</html>
+
+CSS
+
+body{
+  background-color: #6A5495;
+}
+img{
+  width: 300px;
+}
+.pic1{
+  filter: grayscale();
+}
+.pic2{
+  filter: blur(5px);
+}
+.pic3{
+  filter: drop-shadow(5px 5px 5px);
+}
+.pic4{
+  filter: invert();
+}
+.pic5{
+  filter: contrast(200%);
+}
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16: XML (Assignment 1) 
+Program 1: Create XML file in the given format
+<IceCreamParlour>
+<order>
+	<oname> Ice Cream</oname>
+	<cost>150</cost>
+<netcost>300</netcost>
+	<qty>2</qty>
+	<flavour> Vanilla</flavour>
+<toppings>Nuts</toppings>
+</order>
+<order>	<oname> Ice Cream-Sundae</oname>
+	<cost>200</cost>
+	<qty>3</qty>
+	<netcost>600</netcost>
+	<flavour> Strawberry</flavour>
+<toppings>Nuts</toppings>
+<toppings>Chocolate</toppings>
+</order>
+</ IceCreamParlour>
+Using XSLT display the XML data in the table format, choose different color of orders above 100 and below 100.s
+Program 2: Attach CSS with the above XML file and view the data in interesting format.
+Program 3: Create a DTD for the above XML file and Validate the XML in validator.
+CODE :--
+
+XML
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+
+<!DOCTYPE IceCreamParlour
+[
+<!ELEMENT order (oname , cost , netcost , qty , flavour , toppings)>
+<!ELEMENT oname (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT netcost (#PCDATA)>
+<!ELEMENT qty (#PCDATA)>
+<!ELEMENT flavour (#PCDATA)>
+<!ELEMENT toppings (#PCDATA)>
+]>
+
+<IceCreamParlour>
+<order>
+	<oname> Ice Cream</oname>
+	<cost>150</cost>
+    <netcost>300</netcost>
+	<qty>2</qty>
+	<flavour> Vanilla</flavour>
+    <toppings>Nuts</toppings>
+</order>
+<order>
+	<oname> Ice Cream-Sundae</oname>
+	<cost>200</cost>
+	<qty>3</qty>
+	<netcost>600</netcost>
+	<flavour> Strawberry</flavour>
+    <toppings>Nuts</toppings>
+</order>
+</IceCreamParlour >
+
+
+
+
+
+
+
+XSL
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/IceCreamParlour">
+<html> 
+<body>
+  <h2>Ice Cream Palour</h2>
+  <table border="1">
+    <tr bgcolor="#9acd32">
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Cost</th>
+      <th style="text-align:left">Qty</th>
+      <th style="text-align:left">Total</th>
+      <th style="text-align:left">Flavour</th>
+      <th style="text-align:left">Topping</th>
+    </tr>
+    <xsl:for-each select="order">
+    <tr>
+      <td><xsl:value-of select="oname"/></td>      
+      <xsl:choose>
+      <xsl:when test="cost > 100">
+         <td bgcolor="#ff00ff">
+         <xsl:value-of select="cost"/>
+         </td>
+      </xsl:when>
+      <xsl:otherwise>
+         <td><xsl:value-of select="cost"/></td>
+      </xsl:otherwise>
+      </xsl:choose>    
+      <td><xsl:value-of select="qty"/></td>
+      <td><xsl:value-of select="netcost"/></td>
+      <td><xsl:value-of select="flavour"/></td>
+      <td><xsl:value-of select="toppings"/></td>
+    </tr>
+    </xsl:for-each>
+  </table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
+
+
+
+
+HTML (GENERATED)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheetversion="1.0"xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:templatematch="/IceCreamParlour">
+<html>
+<body>
+<h2>Ice Cream Palour</h2>
+<tableborder="1">
+<trbgcolor="#9acd32">
+<thstyle="text-align:left">Name</th>
+<thstyle="text-align:left">Cost</th>
+<thstyle="text-align:left">Qty</th>
+<thstyle="text-align:left">Total</th>
+<thstyle="text-align:left">Flavour</th>
+<thstyle="text-align:left">Topping</th>
+</tr>
+<xsl:for-eachselect="order">
+<tr>
+<td><xsl:value-ofselect="oname"/></td>
+
+<xsl:choose>
+<xsl:whentest="cost > 100">
+<tdbgcolor="#ff00ff">
+<xsl:value-ofselect="cost"/>
+</td>
+</xsl:when>
+<xsl:otherwise>
+<td><xsl:value-ofselect="cost"/></td>
+</xsl:otherwise>
+</xsl:choose>
+
+<td><xsl:value-ofselect="qty"/></td>
+<td><xsl:value-ofselect="netcost"/></td>
+<td><xsl:value-ofselect="flavour"/></td>
+<td><xsl:value-ofselect="toppings"/></td>
+</tr>
+</xsl:for-each>
+</table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
+
+Output:-
+
+
+ 
+
+Validation
+
